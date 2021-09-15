@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="utilityFunctions.compareXML" time="0.805" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/test-classes:/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/classes:/Users/mitramac/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mitramac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mitramac/.m2/repository/xmlunit/xmlunit/1.4/xmlunit-1.4.jar:/Users/mitramac/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/mitramac/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mitramac/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mitramac/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mitramac/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mitramac/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mitramac/.m2/repository/org/xmlunit/xmlunit-core/2.3.0/xmlunit-core-2.3.0.jar:/Users/mitramac/.m2/repository/javax/xml/bind/jaxb-api/2.3.0-b170201.1204/jaxb-api-2.3.0-b170201.1204.jar:/Users/mitramac/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-runtime-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/jaxb-core-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/txw2/2.3.0-b170127.1453/txw2-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.4/istack-commons-runtime-3.0.4.jar:/Users/mitramac/.m2/repository/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.jar:/Users/mitramac/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6087481686158939129.jar /Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire 2021-09-15T16-33-06_543-jvmRun1 surefire4625242638116825782tmp surefire_018305437176585309926tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="compareXML"/>
+    <property name="surefire.test.class.path" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/test-classes:/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/classes:/Users/mitramac/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/mitramac/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/mitramac/.m2/repository/xmlunit/xmlunit/1.4/xmlunit-1.4.jar:/Users/mitramac/.m2/repository/com/aventstack/extentreports/5.0.8/extentreports-5.0.8.jar:/Users/mitramac/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/mitramac/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/mitramac/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/mitramac/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/mitramac/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/mitramac/.m2/repository/org/xmlunit/xmlunit-core/2.3.0/xmlunit-core-2.3.0.jar:/Users/mitramac/.m2/repository/javax/xml/bind/jaxb-api/2.3.0-b170201.1204/jaxb-api-2.3.0-b170201.1204.jar:/Users/mitramac/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.0-b170127.1453/jaxb-runtime-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/jaxb-core/2.3.0-b170127.1453/jaxb-core-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/org/glassfish/jaxb/txw2/2.3.0-b170127.1453/txw2-2.3.0-b170127.1453.jar:/Users/mitramac/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.4/istack-commons-runtime-3.0.4.jar:/Users/mitramac/.m2/repository/org/jvnet/staxex/stax-ex/1.7.8/stax-ex-1.7.8.jar:/Users/mitramac/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/mitramac"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6087481686158939129.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="9.0.4+11"/>
+    <property name="user.name" value="mitramac"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/mitramac/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/n7/9rv8281j7ddcxwq7zp_7py0m0000gp/T/"/>
+    <property name="java.version" value="9.0.4"/>
+    <property name="user.dir" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/mitramac/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="9.0.4+11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="compareXMLs" classname="utilityFunctions.compareXML" time="0.775"/>
+</testsuite>
