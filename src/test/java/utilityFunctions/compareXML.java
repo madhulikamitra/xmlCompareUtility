@@ -42,7 +42,7 @@ public class compareXML {
     }
 
 
-    public static void printDifferences(List<Difference> differences) throws Exception {
+    public void printDifferences(List<Difference> differences) throws Exception {
 
        Boolean status=false;
         List<LinkedHashMap<String, Object>> differenceReport = new ArrayList<LinkedHashMap<String, Object>>();
@@ -93,7 +93,7 @@ public class compareXML {
        differenceDetail.put("DESC - Test",  comparisionDetail.get("DESC - Test").toString());
        differenceDetail.put("TXN - Control",  comparisionDetail.get("TXN - Control").toString());
        differenceDetail.put("DESC - Control",  comparisionDetail.get("DESC - Control").toString());
-    differenceDetail.put("Difference at node Position ", getNodePosition(difference.getTestNodeDetail().getNode()));
+    differenceDetail.put("Difference at node Position ", getNodePosition(difference.getTestNodeDetail().getNode().getParentNode().getParentNode()));
 }
                     differenceReport.add(differenceDetail);
 
@@ -121,7 +121,7 @@ public class compareXML {
 
 
 
-    public static List compareXML(Reader source, Reader target) throws
+    public List compareXML(Reader source, Reader target) throws
             SAXException, IOException {
 
         Diff xmlDiff = new Diff(source, target);
@@ -130,7 +130,7 @@ public class compareXML {
 
     }
 
-    public static int getNodePosition(Node node) {
+    public int getNodePosition(Node node) {
         int pos = -1;
         while (node != null) {
             ++pos;

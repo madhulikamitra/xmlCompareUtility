@@ -13,3 +13,10 @@ Steps to use the project:
 mvn install
 mvn test -Dtest=compareXML
 6. The report after the test run is available at /target/Spark.html
+
+Considerations:
+The xmls are compared such that if only there is a difference in the attributes for same transaction, same description then the difference is called out in the report
+
+If there is a missing node then the missing block is printed in the report
+
+The report lists the expected and actual value and also the exact difference in question

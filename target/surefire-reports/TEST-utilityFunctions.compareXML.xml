@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="utilityFunctions.compareXML" time="0.805" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="utilityFunctions.compareXML" time="0.76" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6087481686158939129.jar /Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire 2021-09-15T16-33-06_543-jvmRun1 surefire4625242638116825782tmp surefire_018305437176585309926tmp"/>
+    <property name="sun.java.command" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6719176760261258818.jar /Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire 2021-09-15T16-45-31_564-jvmRun1 surefire4547642628450907299tmp surefire_04733838863511194362tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="compareXML"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6087481686158939129.jar"/>
+    <property name="surefire.real.class.path" value="/Users/mitramac/Documents/xmlCompareUtility-GIT/xmlCompareUtility/target/surefire/surefirebooter6719176760261258818.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
@@ -61,5 +61,5 @@
     <property name="java.class.version" value="53.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="compareXMLs" classname="utilityFunctions.compareXML" time="0.775"/>
+  <testcase name="compareXMLs" classname="utilityFunctions.compareXML" time="0.726"/>
 </testsuite>
